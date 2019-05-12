@@ -6,8 +6,8 @@ public class Employee {
     private float employee_salary;
     private String employee_age;
 
-    public Employee(int id, String employee_name, float employee_salary, String employee_age) {
-        this.id = id;
+    public Employee(String employee_name, float employee_salary, String employee_age) {
+
         this.employee_name = employee_name;
         this.employee_salary = employee_salary;
         this.employee_age = employee_age;
